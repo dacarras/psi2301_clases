@@ -23,5 +23,3 @@ devtools::install_github(
 ## Cómo citar
 
 Carrasco, D. (2025). PSI2013 Apuntes de clases de "Métodos de Investigación Cuantitativa". figshare. Online resource. <https://doi.org/10.6084/m9.figshare.28570964.v1>
-
-
