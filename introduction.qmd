@@ -1,4 +1,4 @@
-# Introduction
+# Introducción
 
 Invariance is a desired property of total scores generated with polytomous items, to allows comparisons among collections of observations on those total scores (Tse, Lai, & Chang, 2024). These collections of observations include meaningful factors such as sex, age, the language of the test or survey, and the participating country, among different groups of interest. Ideally, response models are used to provide evidence (or the lack of it) that comparisons among these groups can be made on the same scale when total scores are used.
 

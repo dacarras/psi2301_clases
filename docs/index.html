@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sandoval-Hernández, Carrasco &amp; Eryılmaz">
-<meta name="dcterms.date" content="2024-12-14">
+<meta name="author" content="https://dacarras.github.io/">
+<meta name="dcterms.date" content="2025-03-10">
 
-<title>Guidelines for measurement invariance and aligment methods using library(rd3c3)</title>
+<title>PSI2301 Apuntes de clases</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Prefacio (PSI20301)</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -131,7 +131,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Guidelines for measurement invariance and aligment methods using library(rd3c3)</a> 
+      <a href="./">PSI2301 Apuntes de clases</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -144,13 +144,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">Prefacio (PSI20301)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -165,24 +165,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Partial invariance</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./section_3_rd3c3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Library overview</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./section_4_example.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Applied Examples</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./section_5_intended_use.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Intended use</span></span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -193,11 +175,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <li><a href="#prefacio-psi20301" id="toc-prefacio-psi20301" class="nav-link active" data-scroll-target="#prefacio-psi20301">Prefacio (PSI20301)</a>
   <ul class="collapse">
-  <li><a href="#how-to-install" id="toc-how-to-install" class="nav-link" data-scroll-target="#how-to-install">How to install</a></li>
-  <li><a href="#how-to-cite-the-current-document" id="toc-how-to-cite-the-current-document" class="nav-link" data-scroll-target="#how-to-cite-the-current-document">How to cite the current document</a></li>
-  <li><a href="#acknowledgement" id="toc-acknowledgement" class="nav-link" data-scroll-target="#acknowledgement">Acknowledgement</a></li>
+  <li><a href="#ejemplo-de-código" id="toc-ejemplo-de-código" class="nav-link" data-scroll-target="#ejemplo-de-código">Ejemplo de código</a></li>
+  <li><a href="#cómo-citar" id="toc-cómo-citar" class="nav-link" data-scroll-target="#cómo-citar">Cómo citar</a></li>
+  <li><a href="#agradecimientos" id="toc-agradecimientos" class="nav-link" data-scroll-target="#agradecimientos">Agradecimientos</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -207,7 +189,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Guidelines for measurement invariance and aligment methods using library(rd3c3)</h1>
+<h1 class="title">PSI2301 Apuntes de clases</h1>
 </div>
 
 
@@ -217,14 +199,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Sandoval-Hernández, Carrasco &amp; Eryılmaz </p>
+             <p>https://dacarras.github.io/ </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 14, 2024</p>
+      <p class="date">March 10, 2025</p>
     </div>
   </div>
   
@@ -236,22 +218,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p><code>library(rd3c3)</code> is A <strong><em>wrapper function library</em></strong> designed to fit model-based invariance models and alignment methods to assess cross cultural comparability of responses between countries and groups, on international large-scale assessments.</p>
-<p>It helps researchers to write <a href="https://www.statmodel.com/">Mplus</a> code, via <a href="https://github.com/michaelhallquist/MplusAutomation">MplusAutomation</a> to implement invariance analysis.</p>
-<p>It uses graded response models with a probit link (i.e., confirmatory factor analysis with ordinal indicators).</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="logo.png" class="img-fluid figure-img" style="width:75.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<section id="how-to-install" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-install">How to install</h2>
+<section id="prefacio-psi20301" class="level1 unnumbered">
+<h1 class="unnumbered">Prefacio (PSI20301)</h1>
+<p>El siguiente sitio aloja los apuntes de clases de curso. Algo asi como la version escrita de las láminas presentadas en clases.</p>
+<p>&gt;[editar todo lo que viene despues]</p>
+<section id="ejemplo-de-código" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplo-de-código">Ejemplo de código</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install rd3c3</span></span>
@@ -263,12 +235,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="how-to-cite-the-current-document" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-cite-the-current-document">How to cite the current document</h2>
+<section id="cómo-citar" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-citar">Cómo citar</h2>
 <p>Sandoval-Hernández, A.; Carrasco, D; &amp; Eryilmaz, N. (2024). Guidelines for measurement invariance and aligment methods using <code>library(rd3c3)</code>. figshare. Software. https://doi.org/10.6084/m9.figshare.28028564</p>
 </section>
-<section id="acknowledgement" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgement">Acknowledgement</h2>
+<section id="agradecimientos" class="level2">
+<h2 class="anchored" data-anchor-id="agradecimientos">Agradecimientos</h2>
 <p>This work was supported by the IEA Research and Development Fund.</p>
 
 
@@ -667,8 +639,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./introduction.html" class="pagination-link" aria-label="<span class='chapter-number'>1</span>&nbsp; <span class='chapter-title'>Introduction</span>">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./introduction.html" class="pagination-link" aria-label="<span class='chapter-number'>1</span>&nbsp; <span class='chapter-title'>Introducción</span>">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
